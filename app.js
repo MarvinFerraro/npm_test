@@ -6,7 +6,7 @@ const imageminPngquant = require('imagemin-pngquant');
         destination: 'build/images',
         plugins: [
             imageminPngquant({
-                quality: [0.6, 0.8]
+                quality: [0, 0.05]
             })
         ]
     });
